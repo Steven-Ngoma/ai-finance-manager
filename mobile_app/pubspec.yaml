@@ -1,0 +1,43 @@
+name: ai_finance_manager
+description: AI-Powered Personal Finance Manager
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI & Design
+  google_fonts: ^6.0.0
+  flutter_animate: ^4.2.0
+  
+  # Charts & Visualizations
+  fl_chart: ^0.65.0
+  
+  # HTTP & API
+  http: ^1.1.0
+  
+  # State Management
+  provider: ^6.1.2
+  
+  # Local Storage
+  shared_preferences: ^2.2.2
+  
+  # Date & Time
+  intl: ^0.19.0
+  
+  # Icons
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
